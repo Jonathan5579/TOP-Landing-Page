@@ -86,10 +86,15 @@ body {
    border-color: #00000000;
 }
 
-#top_content_section .container img {
+#top_content_section .container .image {
    border-radius: 8px;
    width: 400px;
    height: 223px;
+   background-color: #1F2937;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border: 2px solid #3d4651;
 }
 /****************************************************/
@@ -138,10 +143,15 @@ body {
 }
 
 
-#some_random_information_section .image_subtext_container img{
+#some_random_information_section .image_subtext_container .image{
    width: 150px;
    height: 150px; 
    border: 2px solid #1F2937;
+   background-color: #1F2937;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-radius: 8px;
 }
 
