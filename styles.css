@@ -1,9 +1,8 @@
 /* * {
-   border: 1px solid rgba(255, 0, 0, 0.111);
+   border: 1px solid rgba(255, 0, 0, 0.497);
 } */
 
 body {
-   font-family: Roboto, "Jetbraing Mono", Arial, Helvetica, sans-serif;
    margin: 0;
    min-width: 1000px;
 }
@@ -80,9 +79,11 @@ body {
    background: #3882F6;
    color: inherit;
    font-weight: 700;
-   padding: 8px 24px;
+   padding: 8px 38px;
    align-self: flex-start;
    border-radius: 8px;
+   border-style: solid;
+   border-color: #00000000;
 }
 
 #top_content_section .container img {
@@ -168,7 +169,6 @@ body {
    font-weight: 400;
    width: 800px;
    color: #1F2937;
-   font-family: Roboto;
    font-size: 36px;
 }
 
@@ -178,4 +178,60 @@ body {
    font-style: normal;
    font-size: 28px;
    align-self: flex-end;
+}
+/****************************************************/
+
+#call_to_action_section {
+   background-color: #ffffff; /* I will over specify the bakground and limits in case a browser has other default values*/
+   display: flex;
+   justify-content: center;
+   padding: 8px 94px;
+   height: 380px;
+}
+
+#call_to_action_section .content_container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1200px;
+}
+
+#call_to_action_section .blue_content_container {
+   background: #3882F6;
+   width: 100%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+
+   padding: 48px 120px;
+   color: white;
+   border-radius: 12px;
+}
+
+#call_to_action_section .column {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   font-size: 28px;
+   font-weight: bold;
+}
+
+#call_to_action_section .sign_bottom_text {
+   font-weight: 100;
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+#call_to_action_section .content_container button{
+   background: #3882F6;
+   color: inherit;
+   font-weight: 700;
+   border: 3px solid white;
+   padding: 8px 38px;
+   border-radius: 8px;
+   font-size: 18px;
 }
