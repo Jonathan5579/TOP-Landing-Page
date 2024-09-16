@@ -1,6 +1,6 @@
-* {
+/* * {
    border: 1px solid rgba(255, 0, 0, 0.111);
-}
+} */
 
 body {
    font-family: Roboto, "Jetbraing Mono", Arial, Helvetica, sans-serif;
@@ -15,6 +15,7 @@ body {
    display: flex;
    justify-content: center;
    padding: 8px 94px;
+   height: 430px;
 }
 
 #top_content_section .content_container {
@@ -96,6 +97,7 @@ body {
    display: flex;
    justify-content: center;
    padding: 8px 94px;
+   height: 380px;
 }
 
 
@@ -148,3 +150,32 @@ body {
    border-radius: 8px;
 }
 
+/****************************************************/
+#inspiring_quote_section {
+   background-color: #E5E7EB; /* I will over specify the bakground and limits in case a browser has other default values*/
+   display: flex;
+   justify-content: center;
+   padding: 8px 94px;
+   height: 380px;
+}
+
+#inspiring_quote_section .content_container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-style: italic;
+   font-weight: 400;
+   width: 800px;
+   color: #1F2937;
+   font-family: Roboto;
+   font-size: 36px;
+}
+
+#inspiring_quote_section .quote_autor {
+   color: black;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 28px;
+   align-self: flex-end;
+}
