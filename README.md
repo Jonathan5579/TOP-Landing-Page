@@ -41,7 +41,7 @@ Don’t forget to commit early & often! You can reference the Commit Message les
 
 ![desired-output](assets/desired-output.png)
 
-## Desired Output with mine drawn margins 
+## Desired Output with my margins drawn 
 
 To make more obviuous the styles I have to add, I edited the image of desired output in paint and added the borders that I imagine the elements have, this could be a little missleading because some of those borders will not end up in the end result (because they do not make sense, not because the end result is wrong) so take the borders with a pinch of salt.
 
