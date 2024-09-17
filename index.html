@@ -5,50 +5,90 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>TOP Landing Page</title>
       <link rel="stylesheet" href="styles.css">
+      <style>
+         body {
+            font-family: 'Jetbrains Mono', Roboto, Arial, Helvetica, sans-serif;
+         }
+     </style>
    </head>
    <body>
       
-      <div class="top_content_section">
-         <div class="navbar">
-            <div class="navbar_title">Header Logo</div>
-            <ul>
-               <li><a href="">header link one</a></li>
-               <li><a href="">header link two</a></li>
-               <li><a href="">header link three</a></li>
-            </ul>
-         </div>
+      <div id="top_content_section">
+         <div class="content_container">
+            <div class="navbar">
+               <img class="the_odin_project_icon" src="assets/The_odin_project_icon.png" alt="The odin project icon">
+               <div class="navbar_title">The Odin Project</div>
+               <ul>
+                  <li><a href="">header link one</a></li>
+                  <li><a href="">header link two</a></li>
+                  <li><a href="">header link three</a></li>
+               </ul>
+            </div>
 
-         <div class="container">
-            <div class="column">
-               <div class="content_title">This Website is awesome</div>
-               This website has some subtext that goes here under the main title. Its a smaller font and the color is lower contraste
+            <div class="container">
+               <div class="column">
+                  <div class="content_title">HTML, CSS landing page</div>
+                  This website has some subtext that goes here under the main title. Its a smaller font and the color is lower contraste
+                  <button>Sign up</button>
+               </div>
+
+               <div class="image_pladeholder">Image placeholder</div>
+               <!-- <img src="assets/autum sale steam.jpg" alt="cat_grabbing_his_head_with_desperation"> -->
+            </div>
+         </div>
+      </div>
+
+      <div id="some_random_information_section">
+         <div class ="content_container">
+            <div class="title">Some random information.</div>
+            <div class="image_subtext_section_container">
+               <div class="image_subtext_container">
+                  <div class="image_pladeholder">image placeholder</div>
+                  <!--<img src="assets/miau.png" alt="cat_grabbing_his_head_with_desperation">-->
+                  <div class="subtext">this is some subtext under an illustration or image</div>
+               </div>
+               <div class="image_subtext_container">
+                  <div class="image_pladeholder">image placeholder</div>
+                  <!--<img src="assets/miau.png" alt="cat_grabbing_his_head_with_desperation">-->
+                  <div class="subtext">this is some subtext under an illustration or image</div>
+               </div>
+               <div class="image_subtext_container">
+                  <div class="image_pladeholder">image placeholder</div>
+                  <!--<img src="assets/miau.png" alt="cat_grabbing_his_head_with_desperation">-->
+                  <div class="subtext">this is some subtext under an illustration or image</div>
+               </div>
+               <div class="image_subtext_container">
+                  <div class="image_pladeholder">image placeholder</div>
+                  <!--<img src="assets/miau.png" alt="cat_grabbing_his_head_with_desperation">-->
+                  <div class="subtext">this is some subtext under an illustration or image</div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div id="inspiring_quote_section">
+         <div class="content_container">
+            This is an inspiring quote, or a testimonial from a customer.
+            Maybe it's just filling up space, or maybe people will actually read it. 
+            Who knows? All I know is that it looks nice
+            <div class="quote_autor">-Thor, God of Thunder</div>
+         </div>
+      </div>
+
+      <div id="call_to_action_section">
+         <div class="content_container">
+            <div class="blue_content_container">
+               <div class="column">
+                  Call to action! it's time!
+                  <div class="sign_bottom_text">Sign up for our product by clicking that button right over there!</div>
+               </div>
                <button>Sign up</button>
             </div>
-            <div class="image"> image placeholder</div>
          </div>
       </div>
 
-      <div class="some_random_information_section">
-         <div class="container">
-            <div class="image"></div>
-            <div class="image"></div>
-         </div>
-      </div>
-
-      <div class="inspiring_quote_section">
-         This is an inspiring quote, or a testimonial from a customer.
-         Maybe it's just filling up space, or maybe people will actually read it. 
-         Who knows? All I know is that it looks nice
-         <div class="quote_autor">-Thor, God of Thunder</div>
-      </div>
-
-      <div class="call_to_action_section">
-         Call to action! it's time!
-         <div class="sigh_upbottom">Sign up for our product by clicking that button right over there!</div>
-         <button>Sign up</button>
-      </div>
-
-      <div class="footer">
+      
+      <div id="footer">
          Copyright © The Odin Project 2021
       </div>
    </body>
