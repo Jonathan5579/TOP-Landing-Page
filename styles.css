@@ -4,6 +4,7 @@
 
 body {
    margin: 0;
+   background-color: rgb(0, 0, 0);
    min-width: 1000px;
 }
 
@@ -17,12 +18,23 @@ body {
    height: 430px;
 }
 
-#top_content_section .content_container {
+#navbar__wrapper {
+   color: #F9FAF8;
+   background-color: #171d25;
+   display: flex;
+   justify-content: center;
+   padding: 8px 94px;
+}
+
+#top_content_section .content_container,
+#navbar__wrapper .content_container {
+   width: 100%;
    max-width: 1300px;
 }
 
 .navbar {
    height: 48px;
+   width: 100%;
    display: flex;
    align-items: center;
 }
@@ -69,7 +81,7 @@ body {
    gap: 8px;
 }
 
-#top_content_section .container .column .content_title{
+#landing__wrapper .container .column .content_title{
    font-size: 48px;
    font-weight: 900;
    color: #F9FAF8;
