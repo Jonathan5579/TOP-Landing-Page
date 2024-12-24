@@ -1,7 +1,16 @@
 /* * {
-   border: 1px solid rgba(255, 0, 0, 0.497);
+   border: 1px solid rgba(255, 0, 0, 0.233);
 } */
 
+/*.playground{
+   height: 100px; 
+   width: 100%;
+   background-color: rgb(126, 112, 95); 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+*/
 body {
    margin: 0;
    background-color: rgb(0, 0, 0);
@@ -25,11 +34,21 @@ body {
 }
 
 .navbar {
-   height: 36px;
+   height: 26px;
    width: 100%;
    display: flex;
    align-items: center;
    justify-content: end;
+}
+
+.navbar svg{
+   width: 18px;
+   height: 18px;
+}
+
+/** Removes extra space from the bottom of the anchor element.*/
+.navbar a {
+   line-height: 0;
 }
 
 .navbar .the_odin_project_icon{
